@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2559AFD191651E300FA45B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2559AFC191651E300FA45B2 /* UIKit.framework */; };
+		A2559AFF191651E300FA45B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2559AFE191651E300FA45B2 /* Foundation.framework */; };
+		A2559B01191651E300FA45B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2559B00191651E300FA45B2 /* CoreGraphics.framework */; };
+		A2559B07191651E300FA45B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2559B05191651E300FA45B2 /* InfoPlist.strings */; };
+		A2559B09191651E300FA45B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2559B08191651E300FA45B2 /* main.m */; };
+		A2559B0D191651E400FA45B2 /* HLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2559B0C191651E400FA45B2 /* HLAppDelegate.m */; };
+		A2559B0F191651E400FA45B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2559B0E191651E400FA45B2 /* Default.png */; };
+		A2559B11191651E400FA45B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2559B10191651E400FA45B2 /* Default@2x.png */; };
+		A2559B13191651E400FA45B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2559B12191651E400FA45B2 /* Default-568h@2x.png */; };
+		A2559B16191651E400FA45B2 /* HLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2559B15191651E400FA45B2 /* HLViewController.m */; };
+		A2559B19191651E400FA45B2 /* HLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2559B17191651E400FA45B2 /* HLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2559AF9191651E300FA45B2 /* Tribunapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tribunapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2559AFC191651E300FA45B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2559AFE191651E300FA45B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2559B00191651E300FA45B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2559B04191651E300FA45B2 /* Tribunapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tribunapp-Info.plist"; sourceTree = "<group>"; };
+		A2559B06191651E300FA45B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2559B08191651E300FA45B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2559B0A191651E300FA45B2 /* Tribunapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tribunapp-Prefix.pch"; sourceTree = "<group>"; };
+		A2559B0B191651E400FA45B2 /* HLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAppDelegate.h; sourceTree = "<group>"; };
+		A2559B0C191651E400FA45B2 /* HLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAppDelegate.m; sourceTree = "<group>"; };
+		A2559B0E191651E400FA45B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2559B10191651E400FA45B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2559B12191651E400FA45B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2559B14191651E400FA45B2 /* HLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLViewController.h; sourceTree = "<group>"; };
+		A2559B15191651E400FA45B2 /* HLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLViewController.m; sourceTree = "<group>"; };
+		A2559B18191651E400FA45B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2559AF6191651E300FA45B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2559AFD191651E300FA45B2 /* UIKit.framework in Frameworks */,
+				A2559AFF191651E300FA45B2 /* Foundation.framework in Frameworks */,
+				A2559B01191651E300FA45B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2559AF0191651E300FA45B2 = {
+			isa = PBXGroup;
+			children = (
+				A2559B02191651E300FA45B2 /* Tribunapp */,
+				A2559AFB191651E300FA45B2 /* Frameworks */,
+				A2559AFA191651E300FA45B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2559AFA191651E300FA45B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2559AF9191651E300FA45B2 /* Tribunapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2559AFB191651E300FA45B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2559AFC191651E300FA45B2 /* UIKit.framework */,
+				A2559AFE191651E300FA45B2 /* Foundation.framework */,
+				A2559B00191651E300FA45B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2559B02191651E300FA45B2 /* Tribunapp */ = {
+			isa = PBXGroup;
+			children = (
+				A2559B0B191651E400FA45B2 /* HLAppDelegate.h */,
+				A2559B0C191651E400FA45B2 /* HLAppDelegate.m */,
+				A2559B14191651E400FA45B2 /* HLViewController.h */,
+				A2559B15191651E400FA45B2 /* HLViewController.m */,
+				A2559B17191651E400FA45B2 /* HLViewController.xib */,
+				A2559B03191651E300FA45B2 /* Supporting Files */,
+			);
+			path = Tribunapp;
+			sourceTree = "<group>";
+		};
+		A2559B03191651E300FA45B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2559B04191651E300FA45B2 /* Tribunapp-Info.plist */,
+				A2559B05191651E300FA45B2 /* InfoPlist.strings */,
+				A2559B08191651E300FA45B2 /* main.m */,
+				A2559B0A191651E300FA45B2 /* Tribunapp-Prefix.pch */,
+				A2559B0E191651E400FA45B2 /* Default.png */,
+				A2559B10191651E400FA45B2 /* Default@2x.png */,
+				A2559B12191651E400FA45B2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2559AF8191651E300FA45B2 /* Tribunapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2559B1C191651E400FA45B2 /* Build configuration list for PBXNativeTarget "Tribunapp" */;
+			buildPhases = (
+				A2559AF5191651E300FA45B2 /* Sources */,
+				A2559AF6191651E300FA45B2 /* Frameworks */,
+				A2559AF7191651E300FA45B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tribunapp;
+			productName = Tribunapp;
+			productReference = A2559AF9191651E300FA45B2 /* Tribunapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2559AF1191651E300FA45B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = DeMing;
+			};
+			buildConfigurationList = A2559AF4191651E300FA45B2 /* Build configuration list for PBXProject "Tribunapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2559AF0191651E300FA45B2;
+			productRefGroup = A2559AFA191651E300FA45B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2559AF8191651E300FA45B2 /* Tribunapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2559AF7191651E300FA45B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2559B07191651E300FA45B2 /* InfoPlist.strings in Resources */,
+				A2559B0F191651E400FA45B2 /* Default.png in Resources */,
+				A2559B11191651E400FA45B2 /* Default@2x.png in Resources */,
+				A2559B13191651E400FA45B2 /* Default-568h@2x.png in Resources */,
+				A2559B19191651E400FA45B2 /* HLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2559AF5191651E300FA45B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2559B09191651E300FA45B2 /* main.m in Sources */,
+				A2559B0D191651E400FA45B2 /* HLAppDelegate.m in Sources */,
+				A2559B16191651E400FA45B2 /* HLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2559B05191651E300FA45B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2559B06191651E300FA45B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2559B17191651E400FA45B2 /* HLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2559B18191651E400FA45B2 /* en */,
+			);
+			name = HLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2559B1A191651E400FA45B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2559B1B191651E400FA45B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2559B1D191651E400FA45B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tribunapp/Tribunapp-Prefix.pch";
+				INFOPLIST_FILE = "Tribunapp/Tribunapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2559B1E191651E400FA45B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tribunapp/Tribunapp-Prefix.pch";
+				INFOPLIST_FILE = "Tribunapp/Tribunapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2559AF4191651E300FA45B2 /* Build configuration list for PBXProject "Tribunapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2559B1A191651E400FA45B2 /* Debug */,
+				A2559B1B191651E400FA45B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2559B1C191651E400FA45B2 /* Build configuration list for PBXNativeTarget "Tribunapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2559B1D191651E400FA45B2 /* Debug */,
+				A2559B1E191651E400FA45B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2559AF1191651E300FA45B2 /* Project object */;
+}
